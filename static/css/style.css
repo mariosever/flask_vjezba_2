@@ -1,0 +1,10 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    width: 100%;
+    height: 203px;
+    background-image: url("../img/python_logo.png");
+    background-repeat: no-repeat;
+}

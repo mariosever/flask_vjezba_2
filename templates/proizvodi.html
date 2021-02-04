@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Proizvodi</h1>
+
+    <p>Lista proizvoda</p>
+
+    {% for x in proizvodi %}
+
+        <p>{{x}}</p>
+
+    {% endfor %}
+
+{% endblock content %}
